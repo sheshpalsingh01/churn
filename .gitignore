@@ -16,7 +16,7 @@ venv/
 env/
 
 # ML artifacts (large files — commit only if small, else use Git LFS)
-models/
+
 data/raw/
 data/processed/
 
