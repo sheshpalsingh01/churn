@@ -1,5 +1,5 @@
 # Loan Approval Predictor
-<video controls src="streamlit-main-2026-04-17-14-04-23.webm" title="Title"></video>
+<video controls src="https://github.com/sheshpalsingh01/churn/raw/main/streamlit-main-2026-04-17-14-04-23.webm" title="Title"></video>
 
 A machine learning application that predicts loan approval status based on applicant information using a Streamlit web interface.
 
