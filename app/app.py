@@ -175,6 +175,11 @@ st.markdown(
         color: #202331;
     }
 
+    /* Override Streamlit dark mode text colors */
+    p, span, label, li, div {
+        color: #36855f;
+    }
+
     .block-container {
         max-width: 1060px;
         padding-top: 4rem;
@@ -182,7 +187,7 @@ st.markdown(
     }
 
     h1, h2, h3, h4 {
-        color: #202331;
+        color: #63b076 !important;
         letter-spacing: 0;
     }
 
@@ -195,7 +200,7 @@ st.markdown(
 
     [data-testid="stSelectbox"] label,
     [data-testid="stNumberInput"] label {
-        color: #202331;
+        color: #a8b2e3 !important;
         font-size: 13px;
     }
 
@@ -204,7 +209,7 @@ st.markdown(
         background: #eef0f4;
         border: 0;
         border-radius: 8px;
-        color: #202331;
+        color: #202331 !important;
     }
 
     .stButton > button,
@@ -212,7 +217,7 @@ st.markdown(
         border: 1px solid #d6d8de;
         border-radius: 8px;
         background: #ffffff;
-        color: #202331;
+        color: #202331 !important;
         height: 38px;
     }
 
@@ -225,9 +230,9 @@ st.markdown(
     }
 
     .approved {
-        background: #eaf7ee;
-        border: 1px solid #38a169;
-        color: #166534;
+        background: #eaf7ee !important;
+        border: 1px solid #38a169 !important;
+        color: #166534 !important;
         border-radius: 8px;
         padding: 16px;
         text-align: center;
@@ -236,9 +241,9 @@ st.markdown(
     }
 
     .rejected {
-        background: #fff1f2;
-        border: 1px solid #e11d48;
-        color: #9f1239;
+        background: #fff1f2 !important;
+        border: 1px solid #e11d48 !important;
+        color: #9f1239 !important;
         border-radius: 8px;
         padding: 16px;
         text-align: center;
@@ -251,6 +256,10 @@ st.markdown(
         border-radius: 8px;
         padding: 12px;
         background: #ffffff;
+    }
+    
+    [data-testid="stMetric"] * {
+        color: #202331 !important;
     }
     </style>
     """,
